@@ -12,7 +12,7 @@
         {% for i in items %}
             <tr>
                 {% if i.done %}
-                    <td><strike>{{ i.name }}</strike></td>
+                    <td><s>{{ i.name }}</s></td>
                 {% else %}
                     <td>{{ i.name }}</td>
                 {% endif %}
